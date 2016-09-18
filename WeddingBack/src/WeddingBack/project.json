@@ -3,8 +3,14 @@
     "emitEntryPoint": true,
     "preserveCompilationContext": true
   },
+
+  "runtimes": {
+    "win81-x64": { }
+  },
+
   "dependencies": {
     "AWSSDK.ElasticBeanstalk": "3.2.8-rc",
+    "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final",
     "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
     "Microsoft.AspNetCore.Server.Kestrel": "1.0.1",
     "Microsoft.EntityFrameworkCore.SqlServer": "1.0.1",
@@ -43,6 +49,7 @@
     "Microsoft.AspNetCore.Server.IISIntegration.Tools": {
       "version": "1.0.0-preview1-final",
       "imports": "portable-net45+win8+dnxcore50"
+
     }
   }
 }
